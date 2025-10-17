@@ -22,6 +22,12 @@ export class List extends Component {
   }
 
   handleDelete(event) {
+    const isButton = event.target.type === "button";
+
+    if (!isButton) {
+      return;
+    }
+
     const donateDeleted = event.target.closest(".donate-item");
     const id = donateDeleted?.id;
 
