@@ -1,3 +1,5 @@
+<p>Ссылка на проект: <a href="https://juliapalna.github.io/form-sending-donations/">githubpages</a></p>
+ 
 ### Структура проекта. 
 
 Для сборки модулей в проект добавлена Webpack-конфигурация.
